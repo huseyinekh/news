@@ -295,7 +295,7 @@ header {
 .menu > li:hover ul {
   opacity: 1;
   visibility: visible;
-  max-height: 100px;
+  max-height: 600px;
 }
 .menu .submenu li {
   transition: all 0.2s ease;
