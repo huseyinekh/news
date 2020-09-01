@@ -377,6 +377,10 @@ footer .socials {
   color: white;
 }
 
+.slogan{
+  display: flex;
+    justify-content: center;
+}
 .slogan p {
   color: white;
   text-transform: uppercase;
@@ -386,6 +390,9 @@ footer .socials {
   letter-spacing: 1.1px;
   width: 80%;
   margin: 1rem;
+  
+  text-align: center;
+
 }
 /* SUBTİTLE */
 .scroll-left {
