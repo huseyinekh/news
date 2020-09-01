@@ -688,12 +688,14 @@ body::-webkit-scrollbar {
 }
 
 .structur_item img {
-  width: 30em;
+ 
+  width: 50%;
   box-shadow: 4px 0px 10px 3px rgba(1, 1, 94, 0.445);
 }
 
 /* *structure */
 .structur_item {
+  height: 20em;
   margin:1em 0.3em;
   width: 50em;
   display: flex;
