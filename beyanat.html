@@ -53,12 +53,14 @@
         </h4>
       </div>
       <div class="navbar_container">
+       
         <div id="header-3" class="header">
           <nav class="header-nav">
             <div class="search-button">
               <a href="#" class="search-toggle" data-selector="#header-3"></a>
             </div>
             <ul class="menu">
+              <li> <i class="fa fa-bars menu_icon" aria-hidden="true"></i></li>
               <li><a href="#">Ana Səhifə</a></li>
               <li>
                 <a href="#">Haqqımızda</a>
@@ -100,27 +102,56 @@
       </div>
     </header>
     <section id="main_site">
-      <div class="img_container">
-        <img
-          class="wh100"
-          src="https://images.unsplash.com/photo-1505816014357-96b5ff457e9a?ixlib=rb-1.2.1&w=1000&q=80"
-          alt=""
-        />
-      </div>
-      <div class="about_container">
-        <h2>Header</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa illo,
-          voluptatibus recusandae perspiciatis enim beatae eveniet. Sit optio
-          necessitatibus, minima aspernatur, ipsam porro incidunt voluptates
-          corporis, sunt rerum voluptatibus nihil?
-        </p>
-      </div>
+      <!-- slider start -->
+      <!--#region Slider  -->
+      <div class="slider">
+        <div class="overlay"></div>
+          <div class="slinder_items">
+            <div data-num="1" class="slider_item">
+              <img
+                src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg"
+                alt=""
+              />
+              <div class="slider_content"><h1>1</h1></div>
+            </div>
+            <div class="slider_item">
+              <img
+                src="https://newevolutiondesigns.com/images/freebies/cool-wallpaper-2.jpg"
+                alt=""
+              />
+              <div class="slider_content"><h1>2</h1></div>
+            </div>
+            <div class="slider_item">
+              <img
+                src="https://i.pinimg.com/originals/a4/96/c2/a496c2b6bc5d7cfe0e0674f6598c38ad.jpg"
+                alt=""
+              />
+              <div class="slider_content"><h1>3</h1></div>
+            </div>
+            <div class="slider_item">
+              <img
+                src="https://i.pinimg.com/originals/3b/7b/80/3b7b80bbc03d541adf39420a8ded9fc6.jpg"
+                alt=""
+              />
+              <div class="slider_content"><h1>4</h1></div>
+            </div>
+          </div>
+  
+          <div class="slider_tool slider_bottom_tools p_absolute"></div>
+          <div class="slider_tool slider_left_tool p_absolute">
+            <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+          </div>
+          <div class="slider_tool slider_right_tool p_absolute">
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+          </div>
+        </div>
+
+      <!--#endregion -->
     </section>
     <footer>
       <div class="footer_navbar">
-        <h5>Əsas</h5>
         <div class="nav_item">
+          <h5>Əsas</h5>
           <div class="items flex_default">
             <li><a href="%">Ana Səhifə</a></li>
             <li><a href="%">Sənədlər</a></li>
