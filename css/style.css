@@ -27,8 +27,13 @@ header {
   min-height: 10rem;
   background: linear-gradient(45deg, rgba(255, 255, 255, 0.247), #00008b2e);
   
-  overflow: hidden;
+  /* overflow: hidden; */
 
+}
+@media screen and (max-width:756px){
+  header{
+    overflow: hidden;
+  }
 }
 
 .weather_forecast {
