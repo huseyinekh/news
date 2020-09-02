@@ -586,6 +586,14 @@ body::-webkit-scrollbar {
 
 /* news container */
 .news_container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.news_container .news{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -692,6 +700,9 @@ body::-webkit-scrollbar {
   border: 1px solid transparent;
 }
 
+ .btn_primary{
+   
+ }
 .btn_info:hover {
   color: darkblue;
   background: #ffffff;
