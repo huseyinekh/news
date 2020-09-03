@@ -45,11 +45,18 @@ sliderLeftBtn.click((e) => {
 let isToggledMenu = false;
 $(".menu_icon").click((e) => {
   if (!isToggledMenu) {
+    $('.navbar_container').css({
+      'max-height':'40em'
+    })
     $(".menu ").css({
       "max-height": "1000px",
     });
+ 
     isToggledMenu = true;
   } else {
+    $('.navbar_container').css({
+      'max-height':'4em'
+    })
     $(".menu ").css({
       "max-height": "70px",
     });
